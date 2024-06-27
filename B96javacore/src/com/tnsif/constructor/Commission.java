@@ -37,6 +37,7 @@ public class Commission {
 		else {
 			commission = 0;
 		}
+		System.out.println("commission="+commission);
 		return commission; // return commission
 	}
 }

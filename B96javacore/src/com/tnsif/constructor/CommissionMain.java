@@ -8,9 +8,9 @@ public class CommissionMain {
 		
 		
 		ob.employeeDetails();
-		double commission = ob.commisionCalculation();
+		ob.commisionCalculation();
 		
-		System.out.println("commission="+commission);
+		
 	}
 
 }
