@@ -38,6 +38,6 @@ public class Commission {
 			commission = 0;
 		}
 		System.out.println("commission="+commission);
-		return commission; // return commission
+		return commission;
 	}
 }
