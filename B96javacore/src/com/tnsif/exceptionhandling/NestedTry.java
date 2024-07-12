@@ -14,9 +14,15 @@ public class NestedTry {
 				System.out.println("exception caught" + e.getMessage());
 			} catch (NullPointerException e) {//inner catch
 				System.out.println("exception caught" + e.getMessage());
+			    //System.exit(0);//if we write this method inside the catch block then the finally block wont be executed 
+			}
+			finally {
+				System.out.println("executed whether exception occurs or not");
+				
 			}
 		} catch (ArithmeticException e) {//outer catch
 			System.out.println("exception caught" + e.getMessage());
 		}
+		
 	}
 }
